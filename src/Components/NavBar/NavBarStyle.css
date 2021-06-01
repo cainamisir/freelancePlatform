@@ -1,0 +1,39 @@
+:root {
+    --main: #6C63FF;
+    --secondary: #ff5252;
+    --accent: #cf3cc0;
+}
+.menu-toggle{
+    border: none!important;
+    outline: none!important;
+}
+.nav-bar{
+    font-family: "Poppins";
+    background-color: var(--main) !important;
+    color : white !important;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 5em;
+}
+.button-login{
+    font-family: "Poppins" !important;
+    background: rgb(255,82,82);
+    color: var(main) !important;
+    background: linear-gradient(130deg, rgba(255,82,82,1) 0%, #CF3CC0 100%, rgba(0,212,255,1) 100%);
+    opacity: 0.9;
+    height: 3em;
+
+}
+.button-login:hover{
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+
+}
+@media only screen and (min-width: 800px) {
+    .brand{
+        margin-left:10%;
+    }
+    .button-login{
+        margin-right: 10% !important;
+    }
+  }
